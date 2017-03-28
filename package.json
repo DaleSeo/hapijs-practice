@@ -1,0 +1,21 @@
+{
+  "name": "hapi-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0",
+    "superagent": "^3.5.2"
+  },
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "mongodb": "^2.2.25",
+    "mongoskin": "^2.1.0"
+  }
+}
